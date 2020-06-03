@@ -1,0 +1,7 @@
+curl --request POST \
+  --url 'https://khalido394.auth0.com/oauth/token' \
+  --header 'content-type: application/x-www-form-urlencoded' \
+  --data grant_type=client_credentials \
+  --data 'client_id=doG6Max3sqYRV8vVEQCF24Xbp2LMiTdM' \
+  --data client_secret=18R-WrLWOwE0O2EhmnlGhZn2WagaKdExcWCCHMYJJdlow7qwyD1hg6gfo_G1R4Pj \
+  --data audience=Coffee-shop
